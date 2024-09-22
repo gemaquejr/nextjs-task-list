@@ -1,0 +1,115 @@
+.task-container {
+    max-width: 450px;
+    margin: auto;
+    text-align: center;
+    height: 446px;
+    top: 124px;
+    left: 495px;
+    padding: 32px 0px 0px 0px;
+    gap: 24px;
+    border-radius: 16px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #EAECF0;
+
+
+    .task-section, .completed-section {
+        width: 386px;
+        height: 216px;
+        gap: 24px;
+        opacity: 0px;
+      }
+
+      h2 {
+        height: 19px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: 'Inter Tight';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19.36px;
+        letter-spacing: -0.02em;
+        color: rgba(0, 0, 0, 0.54);
+      }
+    
+      ul {
+        width: 386px;
+        height: 56px;
+        padding: 16px 0px 0px 0px;
+        gap: 16px;
+        border-radius: 8px 0px 0px 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        border: 1px solid #D7DDE9;
+    
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 15px;
+            width: 354px;
+            height: 24px;
+            gap: 10px;
+            opacity: 0px;
+
+            input[type="checkbox"] {
+              width: 24px;
+              height: 24px;
+              padding: 3px 0px 0px 0px;
+              gap: 0px;
+              border-radius: 4px 0px 0px 0px;
+              opacity: 0px;
+              top: 16px;
+              left: 16px;
+              border: 1px solid #D7DDE9
+            }
+
+            .completed-checkbox {
+              background-color: #A0DCF6;
+              border: 1px solid #0796D3;
+          }
+
+            .task-item {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+            }
+      
+            span {
+              width: 274px;
+              height: 19px;
+              top: 18.5px;
+              left: 56px;
+              gap: 0px;
+              opacity: 0px;
+              font-family: Inter Tight;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 19.36px;
+              letter-spacing: -0.02em;
+              text-align: left;
+              color: #000000;
+            }
+    
+            button {
+              width: 24px;
+              height: 24px;
+              top: 16px;
+              left: 346px;
+              padding: 2px 3px 2px 3px;
+              gap: 0px;
+              opacity: 0px;
+              background: none;
+              border: none;
+              cursor: pointer;
+            }
+      
+            &.completed-task {
+              span.task-text {
+                text-decoration: line-through;
+                color: rgba(0, 0, 0, 0.54);
+              }
+            }
+        }
+      }
+}
