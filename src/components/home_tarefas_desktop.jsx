@@ -2,17 +2,12 @@
 
 import React from 'react';
 import Image from 'next/image';
+import Header from './Header';
 
 const Home_tarefas_desktop = () => {
   return (
     <div className="todo-list-container">
-      <header>
-        <div className="logo">
-          <Image src="/assets/logo.png" alt="Logo" width={150} height={36} />
-        </div>
-        <h1>Bem-vindo de volta, Marcus</h1>
-        <p>Segunda, 01 de dezembro de 2025</p>
-      </header>
+      <Header />
 
       <div className="task-section">
         <h2>Suas tarefas de hoje</h2>
