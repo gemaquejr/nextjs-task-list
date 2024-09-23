@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 import './../styles/tasks.scss'
 
-const Tasks = ({ tasks, setTasks }) => {
+const Tasks = ({ tasks, setTasks, openDeleteModal }) => {
 
     return (
         <div className="task-container">
