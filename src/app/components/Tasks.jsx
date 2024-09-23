@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Image from 'next/image';
-import defaultTasks from './../../data/defaultTasks';
+
 import './../styles/tasks.scss'
 
-const Tasks = () => {
-    const [tasks, setTasks] = useState(defaultTasks);
+const Tasks = ({ tasks, setTasks }) => {
 
     return (
         <div className="task-container">
