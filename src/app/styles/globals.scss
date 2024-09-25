@@ -1,13 +1,24 @@
+:root {
+    --color-white: #ffffff;
+    --border-gray: #D7DDE9;
+}
+  
+html {
+    font-size: 62.5%;
+}
+
+main {
+    width: 100vw;
+    max-width: 100%;
+}
+
 .todo-list-container {
-    width: 1440px;
-    height: 768px;
-    top: 200px;
-    left: 795px;
-    gap: 0px;
-    opacity: 0px;
-    background: #FFFFFF;
+    width: 100%;
+    min-height: 100vh;
+    background: var(--color-white);
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     margin: auto;
 }
