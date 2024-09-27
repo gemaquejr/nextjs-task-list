@@ -1,12 +1,18 @@
 .header-container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    min-height: 6.0rem;
-    padding: 1.2rem;
-    border: 0px 0px 1px 0px;
-    border-bottom: 1px solid var(--border-gray);;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 92vw;
+    min-height: 6rem;
+    padding: 0 0 2.4rem 0;
+    border-bottom: 1px solid var(--border-gray);
+    margin-top: 2.4rem;
+
+    @media (min-width: 1024px) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
   
     .logo {
         top: 1.0rem;
