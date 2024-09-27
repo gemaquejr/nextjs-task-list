@@ -1,27 +1,28 @@
 .add-task-button {
-  width: 450px;
-  height: 51px;
-  top: 594px;
-  left: 495px;
-  padding: 16px 24px 16px 24px;
+  width: 32%;
+  height: 5.1rem;
+  padding: 1.6rem 2.4rem 1.6rem 2.4rem;
   gap: 8px;
   border: none;
   border-radius: 8px;
   opacity: 0px;
   background: linear-gradient(90deg, #0796D3 0%, #53C0F0 68.65%);
   cursor: pointer;
+  margin-top: 2.4rem;
+
+  @media (min-width: 1440px) {
+    width: 32vw;
+  }
 
   span {
-    width: 143px;
-    height: 19px;
-    gap: 0px;
-    opacity: 0px;
+    width: 30%;
+    height: 1.9rem;
     font-family: Inter Tight;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 500;
-    line-height: 19.36px;
+    line-height: 1.9rem;
     letter-spacing: -0.02em;
-    color: #FFFFFF;
+    color: var(--color-white);
   }
 
   &:hover {
