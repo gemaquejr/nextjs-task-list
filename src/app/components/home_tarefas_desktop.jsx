@@ -24,8 +24,10 @@ const Home_tarefas_desktop = () => {
       const storedTasks = localStorage.getItem('tasks');
       if (storedTasks) {
         setTasks(JSON.parse(storedTasks));
-      }
+      } else {
+        setTasks(defaultTasks);
     }
+  }
   }, []);
 
   useEffect(() => {
