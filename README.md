@@ -1,41 +1,55 @@
-# To Do List em NextJs.
+# 🌐 To Do List com Next.Js.
 
-Este é um projeto de uma aplicação de lista de tarefas (Todo List) desenvolvida com Next.js e SCSS.
+Aplicação de lista de tarefas (To Do List) criada com **Next.js 14 App Router**, **React**, e **SCSS**.
+
+> 💡 Interface baseada em um design fornecido via Figma.
+
+O objetivo é permitir a criação, visualização, conclusão e exclusão de tarefas diárias. A aplicação implementa funcionalidades de interface de usuário, gerenciamento de estado e armazenamento local.
 
 ![preview](.github/preview.png)
 
-O objetivo é permitir a criação, visualização, conclusão e exclusão de tarefas diárias. A aplicação segue o design recebido no Figma e implementa funcionalidades de interface de usuário, gerenciamento de estado e armazenamento local.
+---
 
 ## 🚀 Tecnologia
 
-- ⚡ Next.js é um Framework React para renderização e roteamento.
+- ⚡ Next.js
 
-- ⚡ JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.
-
-- ⚡ HTML é a linguagem base para se desenvolver qualquer site. 
+- ⚡ React.js
 
 - ⚡ SCSS é uma linguagem de folha de estilos que é compilada para CSS.
 
+- ⚡ HTML5 + JavaScript ES6+
 
-## ✋🏻 Pré-requisitos
+- 💾 `localStorage`
 
-- [git](https://git-scm.com/downloads): Ferramenta para gerenciar o código-fonte
+---
 
-- [Visual Studio Code](https://code.visualstudio.com/): Editor de Código Fonte
+## 🧪 Funcionalidades
 
-- [Next.js](https://nextjs.org/): Biblioteca JavaScript para criar interfaces de usuário
+- ✅ Criar nova tarefa
+- ✅ Marcar tarefa como concluída
+- ✅ Excluir tarefa com modal de confirmação
+- ✅ Exibição separada de tarefas pendentes e concluídas
+- ✅ Dados persistidos localmente
+- ✅ Layout limpo e responsivo
 
+---
 
-## :hammer_and_wrench: Antes de iniciar o projeto.
+## 🛠️ Como executar o projeto
 
-No diretório do projeto, instale as dependências e inicialize o projeto:
-
-### `npm install`
-
-Instala as dependências.
-
-### `npm run dev`
-
-Executa o aplicativo no modo de desenvolvimento.
+1. Clone o repositório:
+```bash
+git clone https://git@github.com:gemaquejr/nextjs-task-list.git
+```
+2. Instale as dependências:
+```
+- cd nextjs-task-list
+- npm install
+- npm run dev
+```
 
 Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo em seu navegador.
+
+---
+
+Desenvolvido com ❤️ por [Francisco Gemaque](https://www.linkedin.com/in/gemaquejr/)
